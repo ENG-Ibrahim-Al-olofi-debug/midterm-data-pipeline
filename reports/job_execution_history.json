@@ -421,5 +421,89 @@
       "status_detail": "SUCCESS"
     },
     "error": null
+  },
+  {
+    "job_id": "job-00970e64",
+    "job_name": "refresh_materialized_views",
+    "trigger_mode": "MANUAL",
+    "status": "SUCCESS",
+    "started_at": "2026-10-05T01:10:39.034906+00:00",
+    "finished_at": "2026-10-05T01:10:39.101897+00:00",
+    "duration_seconds": 0.0669,
+    "details": {
+      "views_refreshed": [
+        "daily_sales_summary",
+        "top_products_summary"
+      ],
+      "orders_processed": 17000,
+      "status_detail": "SUCCESS"
+    },
+    "error": null
+  },
+  {
+    "job_id": "job-f8b0d1cd",
+    "job_name": "generate_periodic_analytics_report",
+    "trigger_mode": "MANUAL",
+    "status": "SUCCESS",
+    "started_at": "2026-10-05T01:10:39.102897+00:00",
+    "finished_at": "2026-10-05T01:10:39.245643+00:00",
+    "duration_seconds": 0.1423,
+    "details": {
+      "report_file": "periodic_analytics_report.json",
+      "total_orders_analyzed": 17000,
+      "total_revenue": 4472773000.0
+    },
+    "error": null
+  },
+  {
+    "job_id": "job-6285eb05",
+    "job_name": "refresh_materialized_views",
+    "trigger_mode": "MANUAL_API_TRIGGER",
+    "status": "SUCCESS",
+    "started_at": "2026-10-05T01:10:57.102669+00:00",
+    "finished_at": "2026-10-05T01:10:57.170654+00:00",
+    "duration_seconds": 0.0688,
+    "details": {
+      "views_refreshed": [
+        "daily_sales_summary",
+        "top_products_summary"
+      ],
+      "orders_processed": 17000,
+      "status_detail": "SUCCESS"
+    },
+    "error": null
+  },
+  {
+    "job_id": "job-37dfa86b",
+    "job_name": "refresh_materialized_views",
+    "trigger_mode": "MANUAL",
+    "status": "SUCCESS",
+    "started_at": "2026-10-05T01:12:16.112596+00:00",
+    "finished_at": "2026-10-05T01:12:16.179593+00:00",
+    "duration_seconds": 0.0676,
+    "details": {
+      "views_refreshed": [
+        "daily_sales_summary",
+        "top_products_summary"
+      ],
+      "orders_processed": 17000,
+      "status_detail": "SUCCESS"
+    },
+    "error": null
+  },
+  {
+    "job_id": "job-6d37809d",
+    "job_name": "generate_periodic_analytics_report",
+    "trigger_mode": "MANUAL",
+    "status": "SUCCESS",
+    "started_at": "2026-10-05T01:12:16.181389+00:00",
+    "finished_at": "2026-10-05T01:12:16.320967+00:00",
+    "duration_seconds": 0.1394,
+    "details": {
+      "report_file": "periodic_analytics_report.json",
+      "total_orders_analyzed": 17000,
+      "total_revenue": 4472773000.0
+    },
+    "error": null
   }
 ]

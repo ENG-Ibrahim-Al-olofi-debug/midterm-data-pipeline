@@ -94,6 +94,10 @@ midterm-data-pipeline/
 ├── .env.example                    # قالب متغيرات البيئة بدون بيانات حساسة
 ├── README.md                       # الوثيقة الشاملة للمشروع النهائي
 ├── requirements.txt                # المكتبات والاعتماديات (PyMongo, PySpark, PyTest, FastAPI, Uvicorn)
+├── BigData_Student_Practice_Small_Only/ # مجلد التدريب والتقييم الرسمي المرسل من الدكتور
+│   ├── 01_student_test_small.csv   # ملف الـ 20,000 سجل للتقييم الرسمي
+│   ├── EXPECTED_RESULTS.xlsx       # ملف إكسل بالنتائج الدقيقة المتوقعة
+│   └── README_STUDENTS.txt         # تعليمات الدكتور الرسمية للطلاب
 ├── دليل_المناقشة_والأسئلة_للدكتور.md # الدليل الفني الاحتياطي والأسئلة الشفوية
 ├── config/
 │   ├── __init__.py

@@ -1,6 +1,6 @@
 {
   "title": "MongoDB Query Explain & Index Optimization Report",
-  "timestamp": "2026-10-05 03:16:11",
+  "timestamp": "2026-10-05 04:12:07",
   "queries_benchmarked": 3,
   "results": [
     {
@@ -17,12 +17,12 @@
       "before": {
         "stage": "COLLSCAN (Collection Scan)",
         "docs_examined": 17000,
-        "latency_ms": 5.961
+        "latency_ms": 5.539
       },
       "after": {
         "stage": "FETCH -> IXSCAN (Index Scan)",
         "docs_examined": 0,
-        "latency_ms": 0.628
+        "latency_ms": 0.599
       },
       "docs_scanned_reduction": "100.0%",
       "status": "OPTIMIZED"
@@ -45,12 +45,12 @@
       "before": {
         "stage": "COLLSCAN (Collection Scan)",
         "docs_examined": 17000,
-        "latency_ms": 5.625
+        "latency_ms": 5.253
       },
       "after": {
         "stage": "FETCH -> IXSCAN (Index Scan)",
         "docs_examined": 410,
-        "latency_ms": 0.749
+        "latency_ms": 0.812
       },
       "docs_scanned_reduction": "97.6%",
       "status": "OPTIMIZED"
@@ -73,12 +73,12 @@
       "before": {
         "stage": "COLLSCAN (Collection Scan)",
         "docs_examined": 17000,
-        "latency_ms": 5.443
+        "latency_ms": 5.499
       },
       "after": {
         "stage": "FETCH -> IXSCAN (Index Scan)",
         "docs_examined": 5676,
-        "latency_ms": 0.771
+        "latency_ms": 0.835
       },
       "docs_scanned_reduction": "66.6%",
       "status": "OPTIMIZED"

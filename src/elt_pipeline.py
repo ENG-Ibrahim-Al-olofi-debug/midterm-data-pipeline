@@ -22,6 +22,7 @@ def run_pipeline(
     force_engine: str | None = None,
     allow_pyspark_fallback: bool = False,
     storage: Storage | None = None,
+    reports_dir: str | Path | None = REPORTS_DIR,
 ) -> dict[str, Any]:
     """Execute the full ELT data pipeline:
 
@@ -74,8 +75,9 @@ def run_pipeline(
         metrics["threshold_mb"] = threshold_mb
         metrics["storage_backend"] = storage.backend
 
-        # Persist metrics to reports/results.json and reports/results.md
-        save_results(metrics, REPORTS_DIR)
+        # Persist metrics to reports/results.json and reports/results.md if reports_dir is specified
+        if reports_dir:
+            save_results(metrics, reports_dir)
 
         print("\n" + "=" * 60)
         print(f"[SUCCESS] Pipeline Completed Successfully! Run ID: {run_id}")
@@ -97,6 +99,7 @@ def run_idempotency_verification(
     input_path: str | Path,
     threshold_mb: float = SMALL_FILE_THRESHOLD_MB,
     storage: Storage | None = None,
+    reports_dir: str | Path | None = None,
 ) -> dict[str, Any]:
     """Verify Section 6.10 & 10.8 requirements:
 
@@ -112,11 +115,11 @@ def run_idempotency_verification(
 
     try:
         print("\n[IDEMPOTENCY TEST] Step 1: Executing First Run...")
-        first_run = run_pipeline(input_path, threshold_mb=threshold_mb, run_id="idempotency-run-001", storage=storage)
+        first_run = run_pipeline(input_path, threshold_mb=threshold_mb, run_id="idempotency-run-001", storage=storage, reports_dir=reports_dir)
         first_validated_count = storage.count("orders_validated")
 
         print("\n[IDEMPOTENCY TEST] Step 2: Executing Second Run on EXACT same input...")
-        second_run = run_pipeline(input_path, threshold_mb=threshold_mb, run_id="idempotency-run-002", storage=storage)
+        second_run = run_pipeline(input_path, threshold_mb=threshold_mb, run_id="idempotency-run-002", storage=storage, reports_dir=reports_dir)
         second_validated_count = storage.count("orders_validated")
 
         business_keys_preserved = (first_validated_count == second_validated_count)

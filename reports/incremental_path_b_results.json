@@ -21,8 +21,8 @@
     "run_id": "path_b_delta_001_rerun",
     "delta_count": 2,
     "inserted_count": 0,
-    "updated_count": 0,
-    "unchanged_count": 2,
+    "updated_count": 1,
+    "unchanged_count": 1,
     "quarantined_count": 0,
     "stale_ignored_count": 0
   },

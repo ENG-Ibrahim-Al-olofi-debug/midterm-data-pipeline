@@ -1,6 +1,8 @@
 # 🚀 خط البيانات الهجين المتقدم ومعالجة البيانات الضخمة (Hybrid Data Pipeline & Analytics Engine)
 > **المشروع النهائي لمقرر البيانات الضخمة (العملي) - المستوى الرابع (ذكاء اصطناعي)**  
+> **إعداد الطالب:** المهندس إبراهيم العلفي (Eng. Ibrahim Al-olofi)  
 > **إشراف:** م. عمر أبوسند  
+> **مستودع المشروع:** [github.com/ENG-Ibrahim-Al-olofi-debug/midterm-data-pipeline](https://github.com/ENG-Ibrahim-Al-olofi-debug/midterm-data-pipeline)  
 > **التقييم المستهدف:** 25 / 25 (المشروع النصفي: 18 درجة + إضافات المشروع النهائي: 7 درجات)
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
@@ -432,11 +434,8 @@ pytest -v
 
 ```bash
 cd "C:\Users\STRIX\Desktop\midterm-data-pipeline (1)\midterm-data-pipeline"
-git init
-git add .
-git commit -m "feat: complete Big Data pipeline Phase 1 & 2 with Spark, ELT, Indexes, Materialized Views, and FastAPI"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+git remote add origin https://github.com/ENG-Ibrahim-Al-olofi-debug/midterm-data-pipeline.git
 git push -u origin main
 ```
 

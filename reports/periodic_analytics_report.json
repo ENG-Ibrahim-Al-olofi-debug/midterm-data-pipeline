@@ -1,0 +1,1714 @@
+{
+  "generated_at": "2026-10-05T00:16:03.266676+00:00",
+  "kpis": {
+    "total_orders": 17000,
+    "total_revenue_yer": 4472773000.0,
+    "avg_order_value_yer": 263104.29,
+    "active_cities_count": 7,
+    "top_selling_product": {
+      "sku": "SKU-1010",
+      "name": "هاتف سامسونج A54",
+      "units_sold": 11603,
+      "total_revenue": 2557253000.0,
+      "orders_count": 5785
+    }
+  },
+  "detailed_reports": {
+    "sales_by_city": [
+      {
+        "city": "عدن",
+        "order_count": 2541,
+        "total_revenue": 668333500.0,
+        "avg_order_value": 263019.87
+      },
+      {
+        "city": "إب",
+        "order_count": 2453,
+        "total_revenue": 653358000.0,
+        "avg_order_value": 266350.59
+      },
+      {
+        "city": "المكلا",
+        "order_count": 2402,
+        "total_revenue": 650869000.0,
+        "avg_order_value": 270969.61
+      },
+      {
+        "city": "ذمار",
+        "order_count": 2480,
+        "total_revenue": 641741500.0,
+        "avg_order_value": 258766.73
+      },
+      {
+        "city": "صنعاء",
+        "order_count": 2425,
+        "total_revenue": 638933500.0,
+        "avg_order_value": 263477.73
+      },
+      {
+        "city": "تعز",
+        "order_count": 2361,
+        "total_revenue": 627996000.0,
+        "avg_order_value": 265987.29
+      },
+      {
+        "city": "الحديدة",
+        "order_count": 2338,
+        "total_revenue": 591541500.0,
+        "avg_order_value": 253011.76
+      }
+    ],
+    "top_products": [
+      {
+        "sku": "SKU-1010",
+        "name": "هاتف سامسونج A54",
+        "units_sold": 11603,
+        "total_revenue": 2557253000.0,
+        "orders_count": 5785
+      },
+      {
+        "sku": "SKU-1007",
+        "name": "قرص SSD محمول",
+        "units_sold": 11127,
+        "total_revenue": 1223599500.0,
+        "orders_count": 5581
+      },
+      {
+        "sku": "SKU-1005",
+        "name": "سماعات رأس",
+        "units_sold": 11441,
+        "total_revenue": 326689500.0,
+        "orders_count": 5746
+      },
+      {
+        "sku": "SKU-1008",
+        "name": "محول HDMI",
+        "units_sold": 11263,
+        "total_revenue": 112374500.0,
+        "orders_count": 5644
+      },
+      {
+        "sku": "SKU-1002",
+        "name": "فأرة لاسلكية",
+        "units_sold": 11352,
+        "total_revenue": 101945000.0,
+        "orders_count": 5693
+      },
+      {
+        "sku": "SKU-1009",
+        "name": "شاحن سريع",
+        "units_sold": 11476,
+        "total_revenue": 91333500.0,
+        "orders_count": 5770
+      }
+    ],
+    "top_customers": [
+      {
+        "customer_id": "عميل-8007114",
+        "customer_name": "محمد علي",
+        "order_count": 1,
+        "total_spend": 1901500.0,
+        "avg_spend": 1901500.0
+      },
+      {
+        "customer_id": "عميل-8013288",
+        "customer_name": "أروى محمد",
+        "order_count": 1,
+        "total_spend": 1862000.0,
+        "avg_spend": 1862000.0
+      },
+      {
+        "customer_id": "عميل-8008320",
+        "customer_name": "فاطمة أحمد",
+        "order_count": 1,
+        "total_spend": 1809500.0,
+        "avg_spend": 1809500.0
+      },
+      {
+        "customer_id": "عميل-8018594",
+        "customer_name": "أحمد محمد",
+        "order_count": 1,
+        "total_spend": 1750000.0,
+        "avg_spend": 1750000.0
+      },
+      {
+        "customer_id": "عميل-8003736",
+        "customer_name": "علي حسين",
+        "order_count": 1,
+        "total_spend": 1722000.0,
+        "avg_spend": 1722000.0
+      },
+      {
+        "customer_id": "عميل-8009221",
+        "customer_name": "خالد سالم",
+        "order_count": 1,
+        "total_spend": 1715000.0,
+        "avg_spend": 1715000.0
+      },
+      {
+        "customer_id": "عميل-8002179",
+        "customer_name": "علي حسين",
+        "order_count": 1,
+        "total_spend": 1706000.0,
+        "avg_spend": 1706000.0
+      },
+      {
+        "customer_id": "عميل-8002515",
+        "customer_name": "يوسف طارق",
+        "order_count": 1,
+        "total_spend": 1682000.0,
+        "avg_spend": 1682000.0
+      },
+      {
+        "customer_id": "عميل-8013146",
+        "customer_name": "سارة ياسر",
+        "order_count": 1,
+        "total_spend": 1681000.0,
+        "avg_spend": 1681000.0
+      },
+      {
+        "customer_id": "عميل-8001507",
+        "customer_name": "أروى محمد",
+        "order_count": 1,
+        "total_spend": 1680500.0,
+        "avg_spend": 1680500.0
+      }
+    ],
+    "sales_by_date": [
+      {
+        "date": "2026-01-01",
+        "order_count": 61,
+        "total_sales": 14174000.0,
+        "min_order_amount": 7000.0,
+        "max_order_amount": 1037000.0,
+        "avg_order_amount": 232360.66
+      },
+      {
+        "date": "2026-01-02",
+        "order_count": 94,
+        "total_sales": 25344500.0,
+        "min_order_amount": 6500.0,
+        "max_order_amount": 1137500.0,
+        "avg_order_amount": 269622.34
+      },
+      {
+        "date": "2026-01-03",
+        "order_count": 94,
+        "total_sales": 26423500.0,
+        "min_order_amount": 6000.0,
+        "max_order_amount": 961500.0,
+        "avg_order_amount": 281101.06
+      },
+      {
+        "date": "2026-01-04",
+        "order_count": 97,
+        "total_sales": 28636000.0,
+        "min_order_amount": 9000.0,
+        "max_order_amount": 1217000.0,
+        "avg_order_amount": 295216.49
+      },
+      {
+        "date": "2026-01-05",
+        "order_count": 94,
+        "total_sales": 21465000.0,
+        "min_order_amount": 8000.0,
+        "max_order_amount": 1070500.0,
+        "avg_order_amount": 228351.06
+      },
+      {
+        "date": "2026-01-06",
+        "order_count": 76,
+        "total_sales": 18276000.0,
+        "min_order_amount": 12000.0,
+        "max_order_amount": 1143000.0,
+        "avg_order_amount": 240473.68
+      },
+      {
+        "date": "2026-01-07",
+        "order_count": 82,
+        "total_sales": 22835500.0,
+        "min_order_amount": 9000.0,
+        "max_order_amount": 1304500.0,
+        "avg_order_amount": 278481.71
+      },
+      {
+        "date": "2026-01-08",
+        "order_count": 103,
+        "total_sales": 26808000.0,
+        "min_order_amount": 9500.0,
+        "max_order_amount": 1287000.0,
+        "avg_order_amount": 260271.84
+      },
+      {
+        "date": "2026-01-09",
+        "order_count": 81,
+        "total_sales": 24376000.0,
+        "min_order_amount": 10500.0,
+        "max_order_amount": 1037000.0,
+        "avg_order_amount": 300938.27
+      },
+      {
+        "date": "2026-01-10",
+        "order_count": 81,
+        "total_sales": 20163000.0,
+        "min_order_amount": 10000.0,
+        "max_order_amount": 824000.0,
+        "avg_order_amount": 248925.93
+      },
+      {
+        "date": "2026-01-11",
+        "order_count": 79,
+        "total_sales": 13962000.0,
+        "min_order_amount": 6000.0,
+        "max_order_amount": 727000.0,
+        "avg_order_amount": 176734.18
+      },
+      {
+        "date": "2026-01-12",
+        "order_count": 97,
+        "total_sales": 25737000.0,
+        "min_order_amount": 8000.0,
+        "max_order_amount": 1040000.0,
+        "avg_order_amount": 265329.9
+      },
+      {
+        "date": "2026-01-13",
+        "order_count": 98,
+        "total_sales": 25124000.0,
+        "min_order_amount": 9000.0,
+        "max_order_amount": 903500.0,
+        "avg_order_amount": 256367.35
+      },
+      {
+        "date": "2026-01-14",
+        "order_count": 98,
+        "total_sales": 29773000.0,
+        "min_order_amount": 6000.0,
+        "max_order_amount": 1416500.0,
+        "avg_order_amount": 303806.12
+      },
+      {
+        "date": "2026-01-15",
+        "order_count": 90,
+        "total_sales": 24611000.0,
+        "min_order_amount": 10500.0,
+        "max_order_amount": 1118000.0,
+        "avg_order_amount": 273455.56
+      },
+      {
+        "date": "2026-01-16",
+        "order_count": 114,
+        "total_sales": 37370500.0,
+        "min_order_amount": 9000.0,
+        "max_order_amount": 1491000.0,
+        "avg_order_amount": 327811.4
+      },
+      {
+        "date": "2026-01-17",
+        "order_count": 82,
+        "total_sales": 20492500.0,
+        "min_order_amount": 7000.0,
+        "max_order_amount": 1046000.0,
+        "avg_order_amount": 249908.54
+      },
+      {
+        "date": "2026-01-18",
+        "order_count": 101,
+        "total_sales": 23576000.0,
+        "min_order_amount": 11000.0,
+        "max_order_amount": 853000.0,
+        "avg_order_amount": 233425.74
+      },
+      {
+        "date": "2026-01-19",
+        "order_count": 90,
+        "total_sales": 23729500.0,
+        "min_order_amount": 10500.0,
+        "max_order_amount": 1682000.0,
+        "avg_order_amount": 263661.11
+      },
+      {
+        "date": "2026-01-20",
+        "order_count": 105,
+        "total_sales": 24416000.0,
+        "min_order_amount": 9000.0,
+        "max_order_amount": 847500.0,
+        "avg_order_amount": 232533.33
+      },
+      {
+        "date": "2026-01-21",
+        "order_count": 110,
+        "total_sales": 27190500.0,
+        "min_order_amount": 7500.0,
+        "max_order_amount": 1236500.0,
+        "avg_order_amount": 247186.36
+      },
+      {
+        "date": "2026-01-22",
+        "order_count": 90,
+        "total_sales": 24272000.0,
+        "min_order_amount": 8000.0,
+        "max_order_amount": 1197000.0,
+        "avg_order_amount": 269688.89
+      },
+      {
+        "date": "2026-01-23",
+        "order_count": 84,
+        "total_sales": 22069000.0,
+        "min_order_amount": 8500.0,
+        "max_order_amount": 1451000.0,
+        "avg_order_amount": 262726.19
+      },
+      {
+        "date": "2026-01-24",
+        "order_count": 94,
+        "total_sales": 29775500.0,
+        "min_order_amount": 11000.0,
+        "max_order_amount": 1313000.0,
+        "avg_order_amount": 316760.64
+      },
+      {
+        "date": "2026-01-25",
+        "order_count": 105,
+        "total_sales": 27823500.0,
+        "min_order_amount": 10000.0,
+        "max_order_amount": 1215500.0,
+        "avg_order_amount": 264985.71
+      },
+      {
+        "date": "2026-01-26",
+        "order_count": 88,
+        "total_sales": 28304500.0,
+        "min_order_amount": 6500.0,
+        "max_order_amount": 1284500.0,
+        "avg_order_amount": 321642.05
+      },
+      {
+        "date": "2026-01-27",
+        "order_count": 96,
+        "total_sales": 26911500.0,
+        "min_order_amount": 7000.0,
+        "max_order_amount": 1251000.0,
+        "avg_order_amount": 280328.12
+      },
+      {
+        "date": "2026-01-28",
+        "order_count": 88,
+        "total_sales": 21947000.0,
+        "min_order_amount": 9500.0,
+        "max_order_amount": 1119500.0,
+        "avg_order_amount": 249397.73
+      },
+      {
+        "date": "2026-01-29",
+        "order_count": 112,
+        "total_sales": 26627000.0,
+        "min_order_amount": 7000.0,
+        "max_order_amount": 1200500.0,
+        "avg_order_amount": 237741.07
+      },
+      {
+        "date": "2026-01-30",
+        "order_count": 106,
+        "total_sales": 27528500.0,
+        "min_order_amount": 10000.0,
+        "max_order_amount": 1022500.0,
+        "avg_order_amount": 259702.83
+      },
+      {
+        "date": "2026-01-31",
+        "order_count": 93,
+        "total_sales": 25202500.0,
+        "min_order_amount": 9500.0,
+        "max_order_amount": 985000.0,
+        "avg_order_amount": 270994.62
+      },
+      {
+        "date": "2026-02-01",
+        "order_count": 109,
+        "total_sales": 31653500.0,
+        "min_order_amount": 11500.0,
+        "max_order_amount": 1370000.0,
+        "avg_order_amount": 290399.08
+      },
+      {
+        "date": "2026-02-02",
+        "order_count": 105,
+        "total_sales": 26559500.0,
+        "min_order_amount": 11500.0,
+        "max_order_amount": 1019000.0,
+        "avg_order_amount": 252947.62
+      },
+      {
+        "date": "2026-02-03",
+        "order_count": 100,
+        "total_sales": 26093500.0,
+        "min_order_amount": 8500.0,
+        "max_order_amount": 1116500.0,
+        "avg_order_amount": 260935.0
+      },
+      {
+        "date": "2026-02-04",
+        "order_count": 84,
+        "total_sales": 19809500.0,
+        "min_order_amount": 12000.0,
+        "max_order_amount": 1160000.0,
+        "avg_order_amount": 235827.38
+      },
+      {
+        "date": "2026-02-05",
+        "order_count": 104,
+        "total_sales": 27342500.0,
+        "min_order_amount": 12000.0,
+        "max_order_amount": 1513500.0,
+        "avg_order_amount": 262908.65
+      },
+      {
+        "date": "2026-02-06",
+        "order_count": 96,
+        "total_sales": 28067000.0,
+        "min_order_amount": 9500.0,
+        "max_order_amount": 1053500.0,
+        "avg_order_amount": 292364.58
+      },
+      {
+        "date": "2026-02-07",
+        "order_count": 97,
+        "total_sales": 23002000.0,
+        "min_order_amount": 9500.0,
+        "max_order_amount": 1020500.0,
+        "avg_order_amount": 237134.02
+      },
+      {
+        "date": "2026-02-08",
+        "order_count": 107,
+        "total_sales": 31941500.0,
+        "min_order_amount": 9000.0,
+        "max_order_amount": 1290500.0,
+        "avg_order_amount": 298518.69
+      },
+      {
+        "date": "2026-02-09",
+        "order_count": 96,
+        "total_sales": 22080000.0,
+        "min_order_amount": 8000.0,
+        "max_order_amount": 1506000.0,
+        "avg_order_amount": 230000.0
+      },
+      {
+        "date": "2026-02-10",
+        "order_count": 102,
+        "total_sales": 24665000.0,
+        "min_order_amount": 11500.0,
+        "max_order_amount": 1127500.0,
+        "avg_order_amount": 241813.73
+      },
+      {
+        "date": "2026-02-11",
+        "order_count": 98,
+        "total_sales": 22794000.0,
+        "min_order_amount": 8500.0,
+        "max_order_amount": 1226000.0,
+        "avg_order_amount": 232591.84
+      },
+      {
+        "date": "2026-02-12",
+        "order_count": 102,
+        "total_sales": 30814000.0,
+        "min_order_amount": 10000.0,
+        "max_order_amount": 1199000.0,
+        "avg_order_amount": 302098.04
+      },
+      {
+        "date": "2026-02-13",
+        "order_count": 90,
+        "total_sales": 18867500.0,
+        "min_order_amount": 8000.0,
+        "max_order_amount": 847500.0,
+        "avg_order_amount": 209638.89
+      },
+      {
+        "date": "2026-02-14",
+        "order_count": 106,
+        "total_sales": 24458500.0,
+        "min_order_amount": 8500.0,
+        "max_order_amount": 1292000.0,
+        "avg_order_amount": 230740.57
+      },
+      {
+        "date": "2026-02-15",
+        "order_count": 97,
+        "total_sales": 28013500.0,
+        "min_order_amount": 8000.0,
+        "max_order_amount": 1178000.0,
+        "avg_order_amount": 288798.97
+      },
+      {
+        "date": "2026-02-16",
+        "order_count": 103,
+        "total_sales": 31115500.0,
+        "min_order_amount": 7500.0,
+        "max_order_amount": 1270500.0,
+        "avg_order_amount": 302092.23
+      },
+      {
+        "date": "2026-02-17",
+        "order_count": 87,
+        "total_sales": 19527000.0,
+        "min_order_amount": 9500.0,
+        "max_order_amount": 1089000.0,
+        "avg_order_amount": 224448.28
+      },
+      {
+        "date": "2026-02-18",
+        "order_count": 110,
+        "total_sales": 28542500.0,
+        "min_order_amount": 11000.0,
+        "max_order_amount": 1117500.0,
+        "avg_order_amount": 259477.27
+      },
+      {
+        "date": "2026-02-19",
+        "order_count": 103,
+        "total_sales": 33256500.0,
+        "min_order_amount": 10500.0,
+        "max_order_amount": 1055000.0,
+        "avg_order_amount": 322878.64
+      },
+      {
+        "date": "2026-02-20",
+        "order_count": 94,
+        "total_sales": 29288500.0,
+        "min_order_amount": 10000.0,
+        "max_order_amount": 1026500.0,
+        "avg_order_amount": 311579.79
+      },
+      {
+        "date": "2026-02-21",
+        "order_count": 85,
+        "total_sales": 22739000.0,
+        "min_order_amount": 10000.0,
+        "max_order_amount": 993000.0,
+        "avg_order_amount": 267517.65
+      },
+      {
+        "date": "2026-02-22",
+        "order_count": 101,
+        "total_sales": 26828500.0,
+        "min_order_amount": 9500.0,
+        "max_order_amount": 1049000.0,
+        "avg_order_amount": 265628.71
+      },
+      {
+        "date": "2026-02-23",
+        "order_count": 72,
+        "total_sales": 19977500.0,
+        "min_order_amount": 13000.0,
+        "max_order_amount": 1126500.0,
+        "avg_order_amount": 277465.28
+      },
+      {
+        "date": "2026-02-24",
+        "order_count": 100,
+        "total_sales": 22846000.0,
+        "min_order_amount": 7000.0,
+        "max_order_amount": 1042000.0,
+        "avg_order_amount": 228460.0
+      },
+      {
+        "date": "2026-02-25",
+        "order_count": 105,
+        "total_sales": 24978000.0,
+        "min_order_amount": 9000.0,
+        "max_order_amount": 1305500.0,
+        "avg_order_amount": 237885.71
+      },
+      {
+        "date": "2026-02-26",
+        "order_count": 89,
+        "total_sales": 25481000.0,
+        "min_order_amount": 8000.0,
+        "max_order_amount": 844000.0,
+        "avg_order_amount": 286303.37
+      },
+      {
+        "date": "2026-02-27",
+        "order_count": 86,
+        "total_sales": 24553000.0,
+        "min_order_amount": 7000.0,
+        "max_order_amount": 1469000.0,
+        "avg_order_amount": 285500.0
+      },
+      {
+        "date": "2026-02-28",
+        "order_count": 85,
+        "total_sales": 22226500.0,
+        "min_order_amount": 8000.0,
+        "max_order_amount": 1526500.0,
+        "avg_order_amount": 261488.24
+      },
+      {
+        "date": "2026-03-01",
+        "order_count": 99,
+        "total_sales": 29300000.0,
+        "min_order_amount": 9000.0,
+        "max_order_amount": 1298500.0,
+        "avg_order_amount": 295959.6
+      },
+      {
+        "date": "2026-03-02",
+        "order_count": 73,
+        "total_sales": 17730000.0,
+        "min_order_amount": 6000.0,
+        "max_order_amount": 1307000.0,
+        "avg_order_amount": 242876.71
+      },
+      {
+        "date": "2026-03-03",
+        "order_count": 94,
+        "total_sales": 24849000.0,
+        "min_order_amount": 7000.0,
+        "max_order_amount": 1275500.0,
+        "avg_order_amount": 264351.06
+      },
+      {
+        "date": "2026-03-04",
+        "order_count": 82,
+        "total_sales": 18368000.0,
+        "min_order_amount": 9000.0,
+        "max_order_amount": 1009500.0,
+        "avg_order_amount": 224000.0
+      },
+      {
+        "date": "2026-03-05",
+        "order_count": 92,
+        "total_sales": 24753500.0,
+        "min_order_amount": 6000.0,
+        "max_order_amount": 1216500.0,
+        "avg_order_amount": 269059.78
+      },
+      {
+        "date": "2026-03-06",
+        "order_count": 106,
+        "total_sales": 28181500.0,
+        "min_order_amount": 8500.0,
+        "max_order_amount": 1862000.0,
+        "avg_order_amount": 265863.21
+      },
+      {
+        "date": "2026-03-07",
+        "order_count": 97,
+        "total_sales": 28453500.0,
+        "min_order_amount": 12000.0,
+        "max_order_amount": 1130500.0,
+        "avg_order_amount": 293335.05
+      },
+      {
+        "date": "2026-03-08",
+        "order_count": 114,
+        "total_sales": 32064000.0,
+        "min_order_amount": 6000.0,
+        "max_order_amount": 1111500.0,
+        "avg_order_amount": 281263.16
+      },
+      {
+        "date": "2026-03-09",
+        "order_count": 100,
+        "total_sales": 24410000.0,
+        "min_order_amount": 8500.0,
+        "max_order_amount": 1680500.0,
+        "avg_order_amount": 244100.0
+      },
+      {
+        "date": "2026-03-10",
+        "order_count": 95,
+        "total_sales": 23454000.0,
+        "min_order_amount": 8500.0,
+        "max_order_amount": 1244000.0,
+        "avg_order_amount": 246884.21
+      },
+      {
+        "date": "2026-03-11",
+        "order_count": 77,
+        "total_sales": 21192000.0,
+        "min_order_amount": 6000.0,
+        "max_order_amount": 1108500.0,
+        "avg_order_amount": 275220.78
+      },
+      {
+        "date": "2026-03-12",
+        "order_count": 84,
+        "total_sales": 21491000.0,
+        "min_order_amount": 7000.0,
+        "max_order_amount": 925500.0,
+        "avg_order_amount": 255845.24
+      },
+      {
+        "date": "2026-03-13",
+        "order_count": 75,
+        "total_sales": 20629500.0,
+        "min_order_amount": 12000.0,
+        "max_order_amount": 1091500.0,
+        "avg_order_amount": 275060.0
+      },
+      {
+        "date": "2026-03-14",
+        "order_count": 98,
+        "total_sales": 26580500.0,
+        "min_order_amount": 9000.0,
+        "max_order_amount": 1128000.0,
+        "avg_order_amount": 271229.59
+      },
+      {
+        "date": "2026-03-15",
+        "order_count": 103,
+        "total_sales": 29187500.0,
+        "min_order_amount": 8500.0,
+        "max_order_amount": 1278500.0,
+        "avg_order_amount": 283373.79
+      },
+      {
+        "date": "2026-03-16",
+        "order_count": 89,
+        "total_sales": 24023500.0,
+        "min_order_amount": 12000.0,
+        "max_order_amount": 1208500.0,
+        "avg_order_amount": 269926.97
+      },
+      {
+        "date": "2026-03-17",
+        "order_count": 108,
+        "total_sales": 32498500.0,
+        "min_order_amount": 9000.0,
+        "max_order_amount": 1431500.0,
+        "avg_order_amount": 300912.04
+      },
+      {
+        "date": "2026-03-18",
+        "order_count": 110,
+        "total_sales": 26654000.0,
+        "min_order_amount": 6000.0,
+        "max_order_amount": 1053500.0,
+        "avg_order_amount": 242309.09
+      },
+      {
+        "date": "2026-03-19",
+        "order_count": 82,
+        "total_sales": 21641000.0,
+        "min_order_amount": 9500.0,
+        "max_order_amount": 1284000.0,
+        "avg_order_amount": 263914.63
+      },
+      {
+        "date": "2026-03-20",
+        "order_count": 111,
+        "total_sales": 27156500.0,
+        "min_order_amount": 11000.0,
+        "max_order_amount": 1066000.0,
+        "avg_order_amount": 244653.15
+      },
+      {
+        "date": "2026-03-21",
+        "order_count": 80,
+        "total_sales": 23628000.0,
+        "min_order_amount": 7000.0,
+        "max_order_amount": 1318000.0,
+        "avg_order_amount": 295350.0
+      },
+      {
+        "date": "2026-03-22",
+        "order_count": 95,
+        "total_sales": 28633000.0,
+        "min_order_amount": 6500.0,
+        "max_order_amount": 1520500.0,
+        "avg_order_amount": 301400.0
+      },
+      {
+        "date": "2026-03-23",
+        "order_count": 74,
+        "total_sales": 22109500.0,
+        "min_order_amount": 12000.0,
+        "max_order_amount": 1067000.0,
+        "avg_order_amount": 298777.03
+      },
+      {
+        "date": "2026-03-24",
+        "order_count": 101,
+        "total_sales": 25118000.0,
+        "min_order_amount": 9500.0,
+        "max_order_amount": 1151500.0,
+        "avg_order_amount": 248693.07
+      },
+      {
+        "date": "2026-03-25",
+        "order_count": 93,
+        "total_sales": 24319500.0,
+        "min_order_amount": 12000.0,
+        "max_order_amount": 1236500.0,
+        "avg_order_amount": 261500.0
+      },
+      {
+        "date": "2026-03-26",
+        "order_count": 90,
+        "total_sales": 20912500.0,
+        "min_order_amount": 8000.0,
+        "max_order_amount": 1102500.0,
+        "avg_order_amount": 232361.11
+      },
+      {
+        "date": "2026-03-27",
+        "order_count": 97,
+        "total_sales": 26248500.0,
+        "min_order_amount": 10000.0,
+        "max_order_amount": 1026000.0,
+        "avg_order_amount": 270603.09
+      },
+      {
+        "date": "2026-03-28",
+        "order_count": 92,
+        "total_sales": 17642000.0,
+        "min_order_amount": 11000.0,
+        "max_order_amount": 672000.0,
+        "avg_order_amount": 191760.87
+      },
+      {
+        "date": "2026-03-29",
+        "order_count": 92,
+        "total_sales": 19283500.0,
+        "min_order_amount": 9000.0,
+        "max_order_amount": 916500.0,
+        "avg_order_amount": 209603.26
+      },
+      {
+        "date": "2026-03-30",
+        "order_count": 104,
+        "total_sales": 25780500.0,
+        "min_order_amount": 8000.0,
+        "max_order_amount": 1158000.0,
+        "avg_order_amount": 247889.42
+      },
+      {
+        "date": "2026-03-31",
+        "order_count": 98,
+        "total_sales": 29034000.0,
+        "min_order_amount": 7500.0,
+        "max_order_amount": 1232000.0,
+        "avg_order_amount": 296265.31
+      },
+      {
+        "date": "2026-04-01",
+        "order_count": 97,
+        "total_sales": 26487500.0,
+        "min_order_amount": 9500.0,
+        "max_order_amount": 959500.0,
+        "avg_order_amount": 273067.01
+      },
+      {
+        "date": "2026-04-02",
+        "order_count": 104,
+        "total_sales": 30279500.0,
+        "min_order_amount": 8500.0,
+        "max_order_amount": 1293500.0,
+        "avg_order_amount": 291149.04
+      },
+      {
+        "date": "2026-04-03",
+        "order_count": 99,
+        "total_sales": 26905500.0,
+        "min_order_amount": 8000.0,
+        "max_order_amount": 1154000.0,
+        "avg_order_amount": 271772.73
+      },
+      {
+        "date": "2026-04-04",
+        "order_count": 81,
+        "total_sales": 15909500.0,
+        "min_order_amount": 7000.0,
+        "max_order_amount": 959500.0,
+        "avg_order_amount": 196413.58
+      },
+      {
+        "date": "2026-04-05",
+        "order_count": 109,
+        "total_sales": 35079500.0,
+        "min_order_amount": 10000.0,
+        "max_order_amount": 1629500.0,
+        "avg_order_amount": 321830.28
+      },
+      {
+        "date": "2026-04-06",
+        "order_count": 97,
+        "total_sales": 27958500.0,
+        "min_order_amount": 9000.0,
+        "max_order_amount": 1136000.0,
+        "avg_order_amount": 288231.96
+      },
+      {
+        "date": "2026-04-07",
+        "order_count": 98,
+        "total_sales": 27435000.0,
+        "min_order_amount": 8500.0,
+        "max_order_amount": 1209500.0,
+        "avg_order_amount": 279948.98
+      },
+      {
+        "date": "2026-04-08",
+        "order_count": 101,
+        "total_sales": 22109000.0,
+        "min_order_amount": 11500.0,
+        "max_order_amount": 1396000.0,
+        "avg_order_amount": 218900.99
+      },
+      {
+        "date": "2026-04-09",
+        "order_count": 92,
+        "total_sales": 20711500.0,
+        "min_order_amount": 8000.0,
+        "max_order_amount": 1275500.0,
+        "avg_order_amount": 225125.0
+      },
+      {
+        "date": "2026-04-10",
+        "order_count": 81,
+        "total_sales": 18603500.0,
+        "min_order_amount": 10000.0,
+        "max_order_amount": 1048500.0,
+        "avg_order_amount": 229672.84
+      },
+      {
+        "date": "2026-04-11",
+        "order_count": 97,
+        "total_sales": 23015500.0,
+        "min_order_amount": 13500.0,
+        "max_order_amount": 1304000.0,
+        "avg_order_amount": 237273.2
+      },
+      {
+        "date": "2026-04-12",
+        "order_count": 95,
+        "total_sales": 23099000.0,
+        "min_order_amount": 8500.0,
+        "max_order_amount": 939500.0,
+        "avg_order_amount": 243147.37
+      },
+      {
+        "date": "2026-04-13",
+        "order_count": 105,
+        "total_sales": 27826500.0,
+        "min_order_amount": 7000.0,
+        "max_order_amount": 1185000.0,
+        "avg_order_amount": 265014.29
+      },
+      {
+        "date": "2026-04-14",
+        "order_count": 96,
+        "total_sales": 23988500.0,
+        "min_order_amount": 6000.0,
+        "max_order_amount": 1063000.0,
+        "avg_order_amount": 249880.21
+      },
+      {
+        "date": "2026-04-15",
+        "order_count": 100,
+        "total_sales": 28448500.0,
+        "min_order_amount": 9500.0,
+        "max_order_amount": 972000.0,
+        "avg_order_amount": 284485.0
+      },
+      {
+        "date": "2026-04-16",
+        "order_count": 108,
+        "total_sales": 30524500.0,
+        "min_order_amount": 9500.0,
+        "max_order_amount": 1341000.0,
+        "avg_order_amount": 282634.26
+      },
+      {
+        "date": "2026-04-17",
+        "order_count": 96,
+        "total_sales": 24511500.0,
+        "min_order_amount": 9000.0,
+        "max_order_amount": 1158500.0,
+        "avg_order_amount": 255328.12
+      },
+      {
+        "date": "2026-04-18",
+        "order_count": 91,
+        "total_sales": 20898500.0,
+        "min_order_amount": 6000.0,
+        "max_order_amount": 1809500.0,
+        "avg_order_amount": 229653.85
+      },
+      {
+        "date": "2026-04-19",
+        "order_count": 82,
+        "total_sales": 18884500.0,
+        "min_order_amount": 6500.0,
+        "max_order_amount": 1575500.0,
+        "avg_order_amount": 230298.78
+      },
+      {
+        "date": "2026-04-20",
+        "order_count": 86,
+        "total_sales": 25696500.0,
+        "min_order_amount": 14000.0,
+        "max_order_amount": 1750000.0,
+        "avg_order_amount": 298796.51
+      },
+      {
+        "date": "2026-04-21",
+        "order_count": 97,
+        "total_sales": 30042000.0,
+        "min_order_amount": 8500.0,
+        "max_order_amount": 1355000.0,
+        "avg_order_amount": 309711.34
+      },
+      {
+        "date": "2026-04-22",
+        "order_count": 91,
+        "total_sales": 19673500.0,
+        "min_order_amount": 8000.0,
+        "max_order_amount": 862500.0,
+        "avg_order_amount": 216192.31
+      },
+      {
+        "date": "2026-04-23",
+        "order_count": 97,
+        "total_sales": 25387000.0,
+        "min_order_amount": 9500.0,
+        "max_order_amount": 1256000.0,
+        "avg_order_amount": 261721.65
+      },
+      {
+        "date": "2026-04-24",
+        "order_count": 91,
+        "total_sales": 23366000.0,
+        "min_order_amount": 9500.0,
+        "max_order_amount": 1195000.0,
+        "avg_order_amount": 256769.23
+      },
+      {
+        "date": "2026-04-25",
+        "order_count": 92,
+        "total_sales": 22812000.0,
+        "min_order_amount": 10500.0,
+        "max_order_amount": 1206500.0,
+        "avg_order_amount": 247956.52
+      },
+      {
+        "date": "2026-04-26",
+        "order_count": 91,
+        "total_sales": 23500500.0,
+        "min_order_amount": 7000.0,
+        "max_order_amount": 1329500.0,
+        "avg_order_amount": 258247.25
+      },
+      {
+        "date": "2026-04-27",
+        "order_count": 71,
+        "total_sales": 17865500.0,
+        "min_order_amount": 11000.0,
+        "max_order_amount": 1336000.0,
+        "avg_order_amount": 251626.76
+      },
+      {
+        "date": "2026-04-28",
+        "order_count": 79,
+        "total_sales": 18211500.0,
+        "min_order_amount": 10000.0,
+        "max_order_amount": 966500.0,
+        "avg_order_amount": 230525.32
+      },
+      {
+        "date": "2026-04-29",
+        "order_count": 110,
+        "total_sales": 25347000.0,
+        "min_order_amount": 7500.0,
+        "max_order_amount": 942500.0,
+        "avg_order_amount": 230427.27
+      },
+      {
+        "date": "2026-04-30",
+        "order_count": 80,
+        "total_sales": 20153000.0,
+        "min_order_amount": 9000.0,
+        "max_order_amount": 1344500.0,
+        "avg_order_amount": 251912.5
+      },
+      {
+        "date": "2026-05-01",
+        "order_count": 107,
+        "total_sales": 26040000.0,
+        "min_order_amount": 6500.0,
+        "max_order_amount": 1157000.0,
+        "avg_order_amount": 243364.49
+      },
+      {
+        "date": "2026-05-02",
+        "order_count": 88,
+        "total_sales": 25448500.0,
+        "min_order_amount": 7000.0,
+        "max_order_amount": 1000500.0,
+        "avg_order_amount": 289187.5
+      },
+      {
+        "date": "2026-05-03",
+        "order_count": 107,
+        "total_sales": 26672000.0,
+        "min_order_amount": 10500.0,
+        "max_order_amount": 1323000.0,
+        "avg_order_amount": 249271.03
+      },
+      {
+        "date": "2026-05-04",
+        "order_count": 85,
+        "total_sales": 28560000.0,
+        "min_order_amount": 10500.0,
+        "max_order_amount": 1681000.0,
+        "avg_order_amount": 336000.0
+      },
+      {
+        "date": "2026-05-05",
+        "order_count": 87,
+        "total_sales": 16446000.0,
+        "min_order_amount": 7500.0,
+        "max_order_amount": 1010000.0,
+        "avg_order_amount": 189034.48
+      },
+      {
+        "date": "2026-05-06",
+        "order_count": 80,
+        "total_sales": 18834000.0,
+        "min_order_amount": 6000.0,
+        "max_order_amount": 956500.0,
+        "avg_order_amount": 235425.0
+      },
+      {
+        "date": "2026-05-07",
+        "order_count": 94,
+        "total_sales": 24496500.0,
+        "min_order_amount": 7500.0,
+        "max_order_amount": 1302500.0,
+        "avg_order_amount": 260601.06
+      },
+      {
+        "date": "2026-05-08",
+        "order_count": 100,
+        "total_sales": 29556000.0,
+        "min_order_amount": 8000.0,
+        "max_order_amount": 1499500.0,
+        "avg_order_amount": 295560.0
+      },
+      {
+        "date": "2026-05-09",
+        "order_count": 104,
+        "total_sales": 27740500.0,
+        "min_order_amount": 9500.0,
+        "max_order_amount": 1715000.0,
+        "avg_order_amount": 266735.58
+      },
+      {
+        "date": "2026-05-10",
+        "order_count": 94,
+        "total_sales": 24687500.0,
+        "min_order_amount": 9500.0,
+        "max_order_amount": 1257500.0,
+        "avg_order_amount": 262632.98
+      },
+      {
+        "date": "2026-05-11",
+        "order_count": 85,
+        "total_sales": 20711500.0,
+        "min_order_amount": 11000.0,
+        "max_order_amount": 1323500.0,
+        "avg_order_amount": 243664.71
+      },
+      {
+        "date": "2026-05-12",
+        "order_count": 101,
+        "total_sales": 38300500.0,
+        "min_order_amount": 11500.0,
+        "max_order_amount": 1345500.0,
+        "avg_order_amount": 379212.87
+      },
+      {
+        "date": "2026-05-13",
+        "order_count": 94,
+        "total_sales": 30433000.0,
+        "min_order_amount": 9000.0,
+        "max_order_amount": 1221500.0,
+        "avg_order_amount": 323755.32
+      },
+      {
+        "date": "2026-05-14",
+        "order_count": 89,
+        "total_sales": 22443000.0,
+        "min_order_amount": 8500.0,
+        "max_order_amount": 1233000.0,
+        "avg_order_amount": 252168.54
+      },
+      {
+        "date": "2026-05-15",
+        "order_count": 76,
+        "total_sales": 19079000.0,
+        "min_order_amount": 8500.0,
+        "max_order_amount": 1293000.0,
+        "avg_order_amount": 251039.47
+      },
+      {
+        "date": "2026-05-16",
+        "order_count": 98,
+        "total_sales": 25074500.0,
+        "min_order_amount": 12000.0,
+        "max_order_amount": 1125500.0,
+        "avg_order_amount": 255862.24
+      },
+      {
+        "date": "2026-05-17",
+        "order_count": 110,
+        "total_sales": 24855000.0,
+        "min_order_amount": 7500.0,
+        "max_order_amount": 1242500.0,
+        "avg_order_amount": 225954.55
+      },
+      {
+        "date": "2026-05-18",
+        "order_count": 106,
+        "total_sales": 25908000.0,
+        "min_order_amount": 7000.0,
+        "max_order_amount": 1391000.0,
+        "avg_order_amount": 244415.09
+      },
+      {
+        "date": "2026-05-19",
+        "order_count": 102,
+        "total_sales": 21652500.0,
+        "min_order_amount": 9000.0,
+        "max_order_amount": 1181000.0,
+        "avg_order_amount": 212279.41
+      },
+      {
+        "date": "2026-05-20",
+        "order_count": 91,
+        "total_sales": 24710500.0,
+        "min_order_amount": 9500.0,
+        "max_order_amount": 1187000.0,
+        "avg_order_amount": 271543.96
+      },
+      {
+        "date": "2026-05-21",
+        "order_count": 94,
+        "total_sales": 30416000.0,
+        "min_order_amount": 9500.0,
+        "max_order_amount": 1165000.0,
+        "avg_order_amount": 323574.47
+      },
+      {
+        "date": "2026-05-22",
+        "order_count": 79,
+        "total_sales": 23246500.0,
+        "min_order_amount": 8000.0,
+        "max_order_amount": 1516500.0,
+        "avg_order_amount": 294259.49
+      },
+      {
+        "date": "2026-05-23",
+        "order_count": 88,
+        "total_sales": 28988000.0,
+        "min_order_amount": 15500.0,
+        "max_order_amount": 1364000.0,
+        "avg_order_amount": 329409.09
+      },
+      {
+        "date": "2026-05-24",
+        "order_count": 83,
+        "total_sales": 19916000.0,
+        "min_order_amount": 6500.0,
+        "max_order_amount": 992500.0,
+        "avg_order_amount": 239951.81
+      },
+      {
+        "date": "2026-05-25",
+        "order_count": 100,
+        "total_sales": 29575500.0,
+        "min_order_amount": 7500.0,
+        "max_order_amount": 1619500.0,
+        "avg_order_amount": 295755.0
+      },
+      {
+        "date": "2026-05-26",
+        "order_count": 82,
+        "total_sales": 24101000.0,
+        "min_order_amount": 6000.0,
+        "max_order_amount": 1504000.0,
+        "avg_order_amount": 293914.63
+      },
+      {
+        "date": "2026-05-27",
+        "order_count": 100,
+        "total_sales": 29690500.0,
+        "min_order_amount": 12000.0,
+        "max_order_amount": 1635500.0,
+        "avg_order_amount": 296905.0
+      },
+      {
+        "date": "2026-05-28",
+        "order_count": 95,
+        "total_sales": 27356000.0,
+        "min_order_amount": 10000.0,
+        "max_order_amount": 1415000.0,
+        "avg_order_amount": 287957.89
+      },
+      {
+        "date": "2026-05-29",
+        "order_count": 104,
+        "total_sales": 27220000.0,
+        "min_order_amount": 11500.0,
+        "max_order_amount": 1235500.0,
+        "avg_order_amount": 261730.77
+      },
+      {
+        "date": "2026-05-30",
+        "order_count": 96,
+        "total_sales": 24188000.0,
+        "min_order_amount": 11500.0,
+        "max_order_amount": 924500.0,
+        "avg_order_amount": 251958.33
+      },
+      {
+        "date": "2026-05-31",
+        "order_count": 105,
+        "total_sales": 29992500.0,
+        "min_order_amount": 11500.0,
+        "max_order_amount": 1140000.0,
+        "avg_order_amount": 285642.86
+      },
+      {
+        "date": "2026-06-01",
+        "order_count": 81,
+        "total_sales": 17157000.0,
+        "min_order_amount": 13000.0,
+        "max_order_amount": 752000.0,
+        "avg_order_amount": 211814.81
+      },
+      {
+        "date": "2026-06-02",
+        "order_count": 91,
+        "total_sales": 19308000.0,
+        "min_order_amount": 6000.0,
+        "max_order_amount": 888500.0,
+        "avg_order_amount": 212175.82
+      },
+      {
+        "date": "2026-06-03",
+        "order_count": 98,
+        "total_sales": 22256500.0,
+        "min_order_amount": 6000.0,
+        "max_order_amount": 1365000.0,
+        "avg_order_amount": 227107.14
+      },
+      {
+        "date": "2026-06-04",
+        "order_count": 109,
+        "total_sales": 30413500.0,
+        "min_order_amount": 11000.0,
+        "max_order_amount": 1339000.0,
+        "avg_order_amount": 279022.94
+      },
+      {
+        "date": "2026-06-05",
+        "order_count": 107,
+        "total_sales": 31433500.0,
+        "min_order_amount": 8500.0,
+        "max_order_amount": 1901500.0,
+        "avg_order_amount": 293771.03
+      },
+      {
+        "date": "2026-06-06",
+        "order_count": 82,
+        "total_sales": 23091500.0,
+        "min_order_amount": 8500.0,
+        "max_order_amount": 1236500.0,
+        "avg_order_amount": 281603.66
+      },
+      {
+        "date": "2026-06-07",
+        "order_count": 83,
+        "total_sales": 19919500.0,
+        "min_order_amount": 6000.0,
+        "max_order_amount": 1166000.0,
+        "avg_order_amount": 239993.98
+      },
+      {
+        "date": "2026-06-08",
+        "order_count": 82,
+        "total_sales": 19708000.0,
+        "min_order_amount": 11000.0,
+        "max_order_amount": 1104500.0,
+        "avg_order_amount": 240341.46
+      },
+      {
+        "date": "2026-06-09",
+        "order_count": 110,
+        "total_sales": 29634500.0,
+        "min_order_amount": 7000.0,
+        "max_order_amount": 1215500.0,
+        "avg_order_amount": 269404.55
+      },
+      {
+        "date": "2026-06-10",
+        "order_count": 96,
+        "total_sales": 21447500.0,
+        "min_order_amount": 9500.0,
+        "max_order_amount": 855000.0,
+        "avg_order_amount": 223411.46
+      },
+      {
+        "date": "2026-06-11",
+        "order_count": 84,
+        "total_sales": 22201500.0,
+        "min_order_amount": 10000.0,
+        "max_order_amount": 866000.0,
+        "avg_order_amount": 264303.57
+      },
+      {
+        "date": "2026-06-12",
+        "order_count": 85,
+        "total_sales": 22474000.0,
+        "min_order_amount": 6000.0,
+        "max_order_amount": 1312500.0,
+        "avg_order_amount": 264400.0
+      },
+      {
+        "date": "2026-06-13",
+        "order_count": 87,
+        "total_sales": 24023000.0,
+        "min_order_amount": 7500.0,
+        "max_order_amount": 1134500.0,
+        "avg_order_amount": 276126.44
+      },
+      {
+        "date": "2026-06-14",
+        "order_count": 104,
+        "total_sales": 23460000.0,
+        "min_order_amount": 8500.0,
+        "max_order_amount": 1154000.0,
+        "avg_order_amount": 225576.92
+      },
+      {
+        "date": "2026-06-15",
+        "order_count": 101,
+        "total_sales": 24797000.0,
+        "min_order_amount": 10500.0,
+        "max_order_amount": 1196500.0,
+        "avg_order_amount": 245514.85
+      },
+      {
+        "date": "2026-06-16",
+        "order_count": 91,
+        "total_sales": 21622500.0,
+        "min_order_amount": 10000.0,
+        "max_order_amount": 1112000.0,
+        "avg_order_amount": 237609.89
+      },
+      {
+        "date": "2026-06-17",
+        "order_count": 91,
+        "total_sales": 17356000.0,
+        "min_order_amount": 6000.0,
+        "max_order_amount": 1439000.0,
+        "avg_order_amount": 190725.27
+      },
+      {
+        "date": "2026-06-18",
+        "order_count": 102,
+        "total_sales": 25625000.0,
+        "min_order_amount": 6000.0,
+        "max_order_amount": 1151000.0,
+        "avg_order_amount": 251225.49
+      },
+      {
+        "date": "2026-06-19",
+        "order_count": 89,
+        "total_sales": 22472500.0,
+        "min_order_amount": 12000.0,
+        "max_order_amount": 1403000.0,
+        "avg_order_amount": 252500.0
+      },
+      {
+        "date": "2026-06-20",
+        "order_count": 103,
+        "total_sales": 28957000.0,
+        "min_order_amount": 9000.0,
+        "max_order_amount": 935000.0,
+        "avg_order_amount": 281135.92
+      },
+      {
+        "date": "2026-06-21",
+        "order_count": 101,
+        "total_sales": 30574500.0,
+        "min_order_amount": 9500.0,
+        "max_order_amount": 1457500.0,
+        "avg_order_amount": 302717.82
+      },
+      {
+        "date": "2026-06-22",
+        "order_count": 93,
+        "total_sales": 24161500.0,
+        "min_order_amount": 9000.0,
+        "max_order_amount": 1167000.0,
+        "avg_order_amount": 259801.08
+      },
+      {
+        "date": "2026-06-23",
+        "order_count": 97,
+        "total_sales": 29948500.0,
+        "min_order_amount": 6500.0,
+        "max_order_amount": 1390500.0,
+        "avg_order_amount": 308747.42
+      },
+      {
+        "date": "2026-06-24",
+        "order_count": 105,
+        "total_sales": 27506000.0,
+        "min_order_amount": 11500.0,
+        "max_order_amount": 1431500.0,
+        "avg_order_amount": 261961.9
+      },
+      {
+        "date": "2026-06-25",
+        "order_count": 79,
+        "total_sales": 19728000.0,
+        "min_order_amount": 11500.0,
+        "max_order_amount": 966500.0,
+        "avg_order_amount": 249721.52
+      },
+      {
+        "date": "2026-06-26",
+        "order_count": 94,
+        "total_sales": 22795500.0,
+        "min_order_amount": 9000.0,
+        "max_order_amount": 1706000.0,
+        "avg_order_amount": 242505.32
+      },
+      {
+        "date": "2026-06-27",
+        "order_count": 117,
+        "total_sales": 30472000.0,
+        "min_order_amount": 9500.0,
+        "max_order_amount": 1358000.0,
+        "avg_order_amount": 260444.44
+      },
+      {
+        "date": "2026-06-28",
+        "order_count": 81,
+        "total_sales": 20014500.0,
+        "min_order_amount": 7500.0,
+        "max_order_amount": 929500.0,
+        "avg_order_amount": 247092.59
+      },
+      {
+        "date": "2026-06-29",
+        "order_count": 89,
+        "total_sales": 23083000.0,
+        "min_order_amount": 6500.0,
+        "max_order_amount": 1490000.0,
+        "avg_order_amount": 259359.55
+      },
+      {
+        "date": "2026-06-30",
+        "order_count": 29,
+        "total_sales": 8270500.0,
+        "min_order_amount": 14000.0,
+        "max_order_amount": 972000.0,
+        "avg_order_amount": 285189.66
+      }
+    ],
+    "order_status_distribution": [
+      {
+        "order_status": "قيد الشحن",
+        "payment_status": "بانتظار الدفع",
+        "order_count": 1941,
+        "total_value": 514749000.0,
+        "percentage_of_total": "11.42%"
+      },
+      {
+        "order_status": "قيد الانتظار",
+        "payment_status": "بانتظار الدفع",
+        "order_count": 1936,
+        "total_value": 493176000.0,
+        "percentage_of_total": "11.39%"
+      },
+      {
+        "order_status": "تم التسليم",
+        "payment_status": "بانتظار الدفع",
+        "order_count": 1877,
+        "total_value": 511989500.0,
+        "percentage_of_total": "11.04%"
+      },
+      {
+        "order_status": "ملغي",
+        "payment_status": "بانتظار الدفع",
+        "order_count": 1861,
+        "total_value": 484415000.0,
+        "percentage_of_total": "10.95%"
+      },
+      {
+        "order_status": "مؤكد",
+        "payment_status": "بانتظار الدفع",
+        "order_count": 1833,
+        "total_value": 479795500.0,
+        "percentage_of_total": "10.78%"
+      },
+      {
+        "order_status": "مرتجع",
+        "payment_status": "بانتظار الدفع",
+        "order_count": 1799,
+        "total_value": 490050500.0,
+        "percentage_of_total": "10.58%"
+      },
+      {
+        "order_status": "قيد الانتظار",
+        "payment_status": "تم الدفع",
+        "order_count": 1026,
+        "total_value": 267676000.0,
+        "percentage_of_total": "6.04%"
+      },
+      {
+        "order_status": "مؤكد",
+        "payment_status": "تم الدفع",
+        "order_count": 965,
+        "total_value": 255112500.0,
+        "percentage_of_total": "5.68%"
+      },
+      {
+        "order_status": "قيد الشحن",
+        "payment_status": "تم الدفع",
+        "order_count": 961,
+        "total_value": 250593500.0,
+        "percentage_of_total": "5.65%"
+      },
+      {
+        "order_status": "ملغي",
+        "payment_status": "تم الدفع",
+        "order_count": 958,
+        "total_value": 238120500.0,
+        "percentage_of_total": "5.64%"
+      },
+      {
+        "order_status": "مرتجع",
+        "payment_status": "تم الدفع",
+        "order_count": 926,
+        "total_value": 247861500.0,
+        "percentage_of_total": "5.45%"
+      },
+      {
+        "order_status": "تم التسليم",
+        "payment_status": "تم الدفع",
+        "order_count": 917,
+        "total_value": 239233500.0,
+        "percentage_of_total": "5.39%"
+      }
+    ]
+  }
+}

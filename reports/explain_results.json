@@ -1,0 +1,87 @@
+{
+  "title": "MongoDB Query Explain & Index Optimization Report",
+  "timestamp": "2026-10-05 03:16:11",
+  "queries_benchmarked": 3,
+  "results": [
+    {
+      "query": "customer_order_history",
+      "index_name": "idx_customer_id",
+      "index_type": "Single Field",
+      "keys": [
+        [
+          "customer_id",
+          1
+        ]
+      ],
+      "rationale": "Optimizes high-frequency customer portal lookups and historical purchase retrieval by customer_id.",
+      "before": {
+        "stage": "COLLSCAN (Collection Scan)",
+        "docs_examined": 17000,
+        "latency_ms": 5.961
+      },
+      "after": {
+        "stage": "FETCH -> IXSCAN (Index Scan)",
+        "docs_examined": 0,
+        "latency_ms": 0.628
+      },
+      "docs_scanned_reduction": "100.0%",
+      "status": "OPTIMIZED"
+    },
+    {
+      "query": "city_status_orders",
+      "index_name": "idx_city_status",
+      "index_type": "Compound Index",
+      "keys": [
+        [
+          "city",
+          1
+        ],
+        [
+          "status",
+          1
+        ]
+      ],
+      "rationale": "Compound index supporting regional logistics filtering: accelerates city-level fulfillment tracking by order status without in-memory filtering.",
+      "before": {
+        "stage": "COLLSCAN (Collection Scan)",
+        "docs_examined": 17000,
+        "latency_ms": 5.625
+      },
+      "after": {
+        "stage": "FETCH -> IXSCAN (Index Scan)",
+        "docs_examined": 410,
+        "latency_ms": 0.749
+      },
+      "docs_scanned_reduction": "97.6%",
+      "status": "OPTIMIZED"
+    },
+    {
+      "query": "high_value_orders",
+      "index_name": "idx_amount_date",
+      "index_type": "Compound Index",
+      "keys": [
+        [
+          "total_amount",
+          -1
+        ],
+        [
+          "order_date",
+          -1
+        ]
+      ],
+      "rationale": "Compound index covering VIP revenue queries: enables fast range filtering on total_amount and sort on order_date without in-memory sort.",
+      "before": {
+        "stage": "COLLSCAN (Collection Scan)",
+        "docs_examined": 17000,
+        "latency_ms": 5.443
+      },
+      "after": {
+        "stage": "FETCH -> IXSCAN (Index Scan)",
+        "docs_examined": 5676,
+        "latency_ms": 0.771
+      },
+      "docs_scanned_reduction": "66.6%",
+      "status": "OPTIMIZED"
+    }
+  ]
+}

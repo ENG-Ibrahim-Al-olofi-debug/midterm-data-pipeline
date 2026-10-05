@@ -1,0 +1,425 @@
+[
+  {
+    "job_id": "job-5685f249",
+    "job_name": "refresh_materialized_views",
+    "trigger_mode": "MANUAL",
+    "status": "SUCCESS",
+    "started_at": "2026-10-04T21:47:45.687190+00:00",
+    "finished_at": "2026-10-04T21:47:45.696495+00:00",
+    "duration_seconds": 0.0129,
+    "details": {
+      "views_refreshed": [
+        "daily_sales_summary",
+        "top_products_summary"
+      ],
+      "orders_processed": 921,
+      "status_detail": "SUCCESS"
+    },
+    "error": null
+  },
+  {
+    "job_id": "job-b2a665bb",
+    "job_name": "generate_periodic_analytics_report",
+    "trigger_mode": "MANUAL",
+    "status": "SUCCESS",
+    "started_at": "2026-10-04T21:47:45.696495+00:00",
+    "finished_at": "2026-10-04T21:47:45.721993+00:00",
+    "duration_seconds": 0.0205,
+    "details": {
+      "report_file": "periodic_analytics_report.json",
+      "total_orders_analyzed": 921,
+      "total_revenue": 231932000.0
+    },
+    "error": null
+  },
+  {
+    "job_id": "job-7ea8bb91",
+    "job_name": "refresh_materialized_views",
+    "trigger_mode": "MANUAL_API_TRIGGER",
+    "status": "SUCCESS",
+    "started_at": "2026-10-04T21:49:56.386146+00:00",
+    "finished_at": "2026-10-04T21:49:56.410676+00:00",
+    "duration_seconds": 0.0193,
+    "details": {
+      "views_refreshed": [
+        "daily_sales_summary",
+        "top_products_summary"
+      ],
+      "orders_processed": 921,
+      "status_detail": "SUCCESS"
+    },
+    "error": null
+  },
+  {
+    "job_id": "job-fa2b8c6a",
+    "job_name": "refresh_materialized_views",
+    "trigger_mode": "MANUAL",
+    "status": "SUCCESS",
+    "started_at": "2026-10-04T21:52:49.460337+00:00",
+    "finished_at": "2026-10-04T21:52:49.476527+00:00",
+    "duration_seconds": 0.0151,
+    "details": {
+      "views_refreshed": [
+        "daily_sales_summary",
+        "top_products_summary"
+      ],
+      "orders_processed": 921,
+      "status_detail": "SUCCESS"
+    },
+    "error": null
+  },
+  {
+    "job_id": "job-8aaf86f7",
+    "job_name": "generate_periodic_analytics_report",
+    "trigger_mode": "MANUAL",
+    "status": "SUCCESS",
+    "started_at": "2026-10-04T21:52:49.476527+00:00",
+    "finished_at": "2026-10-04T21:52:49.500640+00:00",
+    "duration_seconds": 0.0225,
+    "details": {
+      "report_file": "periodic_analytics_report.json",
+      "total_orders_analyzed": 921,
+      "total_revenue": 231932000.0
+    },
+    "error": null
+  },
+  {
+    "job_id": "job-2ab7c4e3",
+    "job_name": "refresh_materialized_views",
+    "trigger_mode": "MANUAL_API_TRIGGER",
+    "status": "SUCCESS",
+    "started_at": "2026-10-04T21:53:05.248175+00:00",
+    "finished_at": "2026-10-04T21:53:05.264339+00:00",
+    "duration_seconds": 0.0165,
+    "details": {
+      "views_refreshed": [
+        "daily_sales_summary",
+        "top_products_summary"
+      ],
+      "orders_processed": 921,
+      "status_detail": "SUCCESS"
+    },
+    "error": null
+  },
+  {
+    "job_id": "job-81292282",
+    "job_name": "refresh_materialized_views",
+    "trigger_mode": "MANUAL",
+    "status": "SUCCESS",
+    "started_at": "2026-10-04T21:55:35.255093+00:00",
+    "finished_at": "2026-10-04T21:55:35.271943+00:00",
+    "duration_seconds": 0.0151,
+    "details": {
+      "views_refreshed": [
+        "daily_sales_summary",
+        "top_products_summary"
+      ],
+      "orders_processed": 921,
+      "status_detail": "SUCCESS"
+    },
+    "error": null
+  },
+  {
+    "job_id": "job-c8964324",
+    "job_name": "generate_periodic_analytics_report",
+    "trigger_mode": "MANUAL",
+    "status": "SUCCESS",
+    "started_at": "2026-10-04T21:55:35.271943+00:00",
+    "finished_at": "2026-10-04T21:55:35.294537+00:00",
+    "duration_seconds": 0.0191,
+    "details": {
+      "report_file": "periodic_analytics_report.json",
+      "total_orders_analyzed": 921,
+      "total_revenue": 231932000.0
+    },
+    "error": null
+  },
+  {
+    "job_id": "job-58977759",
+    "job_name": "refresh_materialized_views",
+    "trigger_mode": "MANUAL_API_TRIGGER",
+    "status": "SUCCESS",
+    "started_at": "2026-10-04T21:55:50.305071+00:00",
+    "finished_at": "2026-10-04T21:55:50.317449+00:00",
+    "duration_seconds": 0.0129,
+    "details": {
+      "views_refreshed": [
+        "daily_sales_summary",
+        "top_products_summary"
+      ],
+      "orders_processed": 921,
+      "status_detail": "SUCCESS"
+    },
+    "error": null
+  },
+  {
+    "job_id": "job-0fd6a201",
+    "job_name": "refresh_materialized_views",
+    "trigger_mode": "MANUAL",
+    "status": "SUCCESS",
+    "started_at": "2026-10-04T22:10:35.190307+00:00",
+    "finished_at": "2026-10-04T22:10:35.208745+00:00",
+    "duration_seconds": 0.0166,
+    "details": {
+      "views_refreshed": [
+        "daily_sales_summary",
+        "top_products_summary"
+      ],
+      "orders_processed": 921,
+      "status_detail": "SUCCESS"
+    },
+    "error": null
+  },
+  {
+    "job_id": "job-47f6f4b7",
+    "job_name": "generate_periodic_analytics_report",
+    "trigger_mode": "MANUAL",
+    "status": "SUCCESS",
+    "started_at": "2026-10-04T22:10:35.208745+00:00",
+    "finished_at": "2026-10-04T22:10:35.228002+00:00",
+    "duration_seconds": 0.0179,
+    "details": {
+      "report_file": "periodic_analytics_report.json",
+      "total_orders_analyzed": 921,
+      "total_revenue": 231932000.0
+    },
+    "error": null
+  },
+  {
+    "job_id": "job-565cd79f",
+    "job_name": "refresh_materialized_views",
+    "trigger_mode": "MANUAL",
+    "status": "SUCCESS",
+    "started_at": "2026-10-04T23:25:39.466678+00:00",
+    "finished_at": "2026-10-04T23:25:39.482626+00:00",
+    "duration_seconds": 0.0142,
+    "details": {
+      "views_refreshed": [
+        "daily_sales_summary",
+        "top_products_summary"
+      ],
+      "orders_processed": 921,
+      "status_detail": "SUCCESS"
+    },
+    "error": null
+  },
+  {
+    "job_id": "job-a3715798",
+    "job_name": "generate_periodic_analytics_report",
+    "trigger_mode": "MANUAL",
+    "status": "SUCCESS",
+    "started_at": "2026-10-04T23:25:39.484184+00:00",
+    "finished_at": "2026-10-04T23:25:39.500652+00:00",
+    "duration_seconds": 0.018,
+    "details": {
+      "report_file": "periodic_analytics_report.json",
+      "total_orders_analyzed": 921,
+      "total_revenue": 231932000.0
+    },
+    "error": null
+  },
+  {
+    "job_id": "job-5e87c014",
+    "job_name": "refresh_materialized_views",
+    "trigger_mode": "MANUAL_API_TRIGGER",
+    "status": "SUCCESS",
+    "started_at": "2026-10-04T23:25:54.369672+00:00",
+    "finished_at": "2026-10-04T23:25:54.379688+00:00",
+    "duration_seconds": 0.0117,
+    "details": {
+      "views_refreshed": [
+        "daily_sales_summary",
+        "top_products_summary"
+      ],
+      "orders_processed": 921,
+      "status_detail": "SUCCESS"
+    },
+    "error": null
+  },
+  {
+    "job_id": "job-6bc45f05",
+    "job_name": "refresh_materialized_views",
+    "trigger_mode": "MANUAL",
+    "status": "SUCCESS",
+    "started_at": "2026-10-04T23:30:15.282795+00:00",
+    "finished_at": "2026-10-04T23:30:15.294541+00:00",
+    "duration_seconds": 0.0134,
+    "details": {
+      "views_refreshed": [
+        "daily_sales_summary",
+        "top_products_summary"
+      ],
+      "orders_processed": 921,
+      "status_detail": "SUCCESS"
+    },
+    "error": null
+  },
+  {
+    "job_id": "job-ba65540e",
+    "job_name": "generate_periodic_analytics_report",
+    "trigger_mode": "MANUAL",
+    "status": "SUCCESS",
+    "started_at": "2026-10-04T23:30:15.294541+00:00",
+    "finished_at": "2026-10-04T23:30:15.313517+00:00",
+    "duration_seconds": 0.0165,
+    "details": {
+      "report_file": "periodic_analytics_report.json",
+      "total_orders_analyzed": 921,
+      "total_revenue": 231932000.0
+    },
+    "error": null
+  },
+  {
+    "job_id": "job-7d86f40c",
+    "job_name": "refresh_materialized_views",
+    "trigger_mode": "MANUAL_API_TRIGGER",
+    "status": "SUCCESS",
+    "started_at": "2026-10-04T23:30:30.020604+00:00",
+    "finished_at": "2026-10-04T23:30:30.040237+00:00",
+    "duration_seconds": 0.013,
+    "details": {
+      "views_refreshed": [
+        "daily_sales_summary",
+        "top_products_summary"
+      ],
+      "orders_processed": 921,
+      "status_detail": "SUCCESS"
+    },
+    "error": null
+  },
+  {
+    "job_id": "job-6441a6fc",
+    "job_name": "refresh_materialized_views",
+    "trigger_mode": "MANUAL",
+    "status": "SUCCESS",
+    "started_at": "2026-10-04T23:32:23.803175+00:00",
+    "finished_at": "2026-10-04T23:32:23.814089+00:00",
+    "duration_seconds": 0.0129,
+    "details": {
+      "views_refreshed": [
+        "daily_sales_summary",
+        "top_products_summary"
+      ],
+      "orders_processed": 921,
+      "status_detail": "SUCCESS"
+    },
+    "error": null
+  },
+  {
+    "job_id": "job-1319b938",
+    "job_name": "generate_periodic_analytics_report",
+    "trigger_mode": "MANUAL",
+    "status": "SUCCESS",
+    "started_at": "2026-10-04T23:32:23.817098+00:00",
+    "finished_at": "2026-10-04T23:32:23.835970+00:00",
+    "duration_seconds": 0.0185,
+    "details": {
+      "report_file": "periodic_analytics_report.json",
+      "total_orders_analyzed": 921,
+      "total_revenue": 231932000.0
+    },
+    "error": null
+  },
+  {
+    "job_id": "job-a8297a94",
+    "job_name": "refresh_materialized_views",
+    "trigger_mode": "MANUAL_API_TRIGGER",
+    "status": "SUCCESS",
+    "started_at": "2026-10-04T23:32:38.630387+00:00",
+    "finished_at": "2026-10-04T23:32:38.640977+00:00",
+    "duration_seconds": 0.0151,
+    "details": {
+      "views_refreshed": [
+        "daily_sales_summary",
+        "top_products_summary"
+      ],
+      "orders_processed": 921,
+      "status_detail": "SUCCESS"
+    },
+    "error": null
+  },
+  {
+    "job_id": "job-55d839b4",
+    "job_name": "refresh_materialized_views",
+    "trigger_mode": "MANUAL",
+    "status": "SUCCESS",
+    "started_at": "2026-10-04T23:55:01.752067+00:00",
+    "finished_at": "2026-10-04T23:55:01.896338+00:00",
+    "duration_seconds": 0.1482,
+    "details": {
+      "views_refreshed": [
+        "daily_sales_summary",
+        "top_products_summary"
+      ],
+      "orders_processed": 17000,
+      "status_detail": "SUCCESS"
+    },
+    "error": null
+  },
+  {
+    "job_id": "job-4e7ae4f1",
+    "job_name": "generate_periodic_analytics_report",
+    "trigger_mode": "MANUAL",
+    "status": "SUCCESS",
+    "started_at": "2026-10-04T23:55:01.902928+00:00",
+    "finished_at": "2026-10-04T23:55:02.175268+00:00",
+    "duration_seconds": 0.2732,
+    "details": {
+      "report_file": "periodic_analytics_report.json",
+      "total_orders_analyzed": 17000,
+      "total_revenue": 4472773000.0
+    },
+    "error": null
+  },
+  {
+    "job_id": "job-02d00839",
+    "job_name": "refresh_materialized_views",
+    "trigger_mode": "MANUAL",
+    "status": "SUCCESS",
+    "started_at": "2026-10-05T00:16:03.065557+00:00",
+    "finished_at": "2026-10-05T00:16:03.128866+00:00",
+    "duration_seconds": 0.0637,
+    "details": {
+      "views_refreshed": [
+        "daily_sales_summary",
+        "top_products_summary"
+      ],
+      "orders_processed": 17000,
+      "status_detail": "SUCCESS"
+    },
+    "error": null
+  },
+  {
+    "job_id": "job-6cd5659b",
+    "job_name": "generate_periodic_analytics_report",
+    "trigger_mode": "MANUAL",
+    "status": "SUCCESS",
+    "started_at": "2026-10-05T00:16:03.129869+00:00",
+    "finished_at": "2026-10-05T00:16:03.268846+00:00",
+    "duration_seconds": 0.1393,
+    "details": {
+      "report_file": "periodic_analytics_report.json",
+      "total_orders_analyzed": 17000,
+      "total_revenue": 4472773000.0
+    },
+    "error": null
+  },
+  {
+    "job_id": "job-90c5e3bb",
+    "job_name": "refresh_materialized_views",
+    "trigger_mode": "MANUAL_API_TRIGGER",
+    "status": "SUCCESS",
+    "started_at": "2026-10-05T00:16:21.137521+00:00",
+    "finished_at": "2026-10-05T00:16:21.203240+00:00",
+    "duration_seconds": 0.0656,
+    "details": {
+      "views_refreshed": [
+        "daily_sales_summary",
+        "top_products_summary"
+      ],
+      "orders_processed": 17000,
+      "status_detail": "SUCCESS"
+    },
+    "error": null
+  }
+]

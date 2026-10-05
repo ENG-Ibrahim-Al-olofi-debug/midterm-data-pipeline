@@ -1,0 +1,33 @@
+{
+  "experiment_1_initial": {
+    "run_id": "path_b_initial_load",
+    "delta_count": 2,
+    "inserted_count": 2,
+    "updated_count": 0,
+    "unchanged_count": 0,
+    "quarantined_count": 0,
+    "stale_ignored_count": 0
+  },
+  "experiment_2_delta": {
+    "run_id": "path_b_delta_001",
+    "delta_count": 2,
+    "inserted_count": 1,
+    "updated_count": 1,
+    "unchanged_count": 0,
+    "quarantined_count": 0,
+    "stale_ignored_count": 0
+  },
+  "experiment_3_delta_rerun": {
+    "run_id": "path_b_delta_001_rerun",
+    "delta_count": 2,
+    "inserted_count": 0,
+    "updated_count": 0,
+    "unchanged_count": 2,
+    "quarantined_count": 0,
+    "stale_ignored_count": 0
+  },
+  "count_after_initial": 2,
+  "count_after_delta": 3,
+  "count_after_rerun": 3,
+  "idempotency_guaranteed": true
+}
